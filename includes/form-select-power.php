@@ -1,5 +1,5 @@
 <?php
-$power_classes = array('<=50', '51 - 90', '91 - 120', '>=120');
+$power_classes = array('<=50', '51 - 90', '91 - 120', '>=121');
 
 $options = '';
 

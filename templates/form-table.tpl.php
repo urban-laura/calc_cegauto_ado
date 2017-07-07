@@ -8,61 +8,55 @@
 
 <body>
 
-<table class='title'>
-<tr>
-<td>Cégautó adó</td>
-</tr>
-</table>
+<div class='frame'>
+
+<div class='title'>
+<h1>Cégautó adó</h1>
+</div>
 
 <form name='calculator' method='post' class='calc-form'>
-<table class='center'>
-<tr>
-<td>
+<div class='center'>
+
+<h4>
 Teljesítmény (kW):
 <select name='power' class='select'>
 	###power-options###
 </select>
-</td>
-</tr>
+</h4>
 
-<tr>
-<td class='padding-top'>
+<h4>
 Környezetvédelmi osztály:
 <select name='env' class='select'>
 	###env-options###
 </select>
-</td>
-</tr>
-</table>
+</h4>
+</div>
 
-<table class='submit'>
+<div class='submit'>
 <input type='hidden' value='submitted' name='submitted'>
-<tr>
-<td><input type='submit' id='submit' value='Számol' class='form-submit'></td>
-</tr>
-</table>
+<input type='submit' id='submit' value='Számol' class='form-submit'>
+</div>
 </form>
 
-<table id='sum' class='###sum-visibility###'>	
+<div id='sum' class='###sum-visibility###'>	
+
+<table>
 <tr>
-<td class='messages padding-top'>Havonta:</td>
-<td class='padding-top'>###month-value### Ft</td>
+<td class='title2'>Havonta:</td>
+<td class='value'>###month-value### Ft</td>
 </tr>
 
 <tr>
-<td class='messages padding-top'>Negyedévente:</td>
-<td class='padding-top'>###month3-value### Ft</td>
+<td class='title2'>Negyedévente:</td>
+<td class='value'>###month3-value### Ft</td>
 </tr>
 
 <tr>
-<td class='messages padding-top'>Évente:</td>
-<td class='padding-top'>###year-value### Ft</td>
+<td class='title2'>Évente:</td>
+<td class='value'>###year-value### Ft</td>
 </tr>
 </table>
+</div>
 
-<table class='zero'>
-<tr>
-<td></td>
-</tr>
-</table>
+</div>
 </body>

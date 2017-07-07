@@ -1,8 +1,15 @@
+.frame
+{
+	width : 420px;
+	font-family : Verdana;
+	background-color : #EEEEEE;
+	border-radius : 5px 5px 5px 5px;
+	color: #01224a;
+	padding-bottom : 5px;
+}
+
 #sum
 {
-	background-color : #EEEEEE; 
-	color: #01224a; 
-	font-family : Verdana; 
 	width : 420px; 
 	padding : 15px;
 	padding-top : 10px; 
@@ -17,42 +24,37 @@
 
 .center
 {
-	background-color : #EEEEEE;
-	color: #01224a;
-	font-family : Verdana;
-	width : 420px;
 	padding : 15px; 
+	padding-top : 0;
 }
 
 .title
 {
 	background-color : #005398;
-	font-family : Verdana;
-	width : 420px;
 	height : 50px; 
 	border-radius : 5px 5px 0px 0px; 
-	text-align : center;
+	text-align : center;	
+}
+
+.title h1
+{
 	font-weight: bold; 
 	font-size : 20px;
 	color : white;
+	margin : 0;
+	padding-top : 12px;
 }
 
-.padding-top
+.center h4
 {
-	padding-top : 15px;
+	font-weight : normal;
+	margin-top : 10px;
+	margin-bottom : 0;
 }
 
 .select
 {
-	width : 165px;
-}
-
-.zero
-{
-	background-color : #EEEEEE; 
-	color: #01224a;
-	width : 420px; 
-	border-radius : 0px 0px 5px 5px;
+	width : 171px;
 }
 
 .submit
@@ -70,9 +72,18 @@
 	height : 30px;
 }
 
-.messages
+.title2
 {
-	width : 150px;
+	width : 150px; 
+	padding-bottom : 10px;
+	color: #01224a;
+}
+
+.value
+{
+	padding-bottom : 10px;
+	text-align : right;
+	color: #01224a;
 }
 
 .invisible
